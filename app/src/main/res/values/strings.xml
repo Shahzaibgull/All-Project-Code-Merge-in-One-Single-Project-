@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Course Outline</string>
+    <string name="nav_open" translatable="false">Open Navigation Drawer</string>
+    <string name="nav_close" translatable="false">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="history" translatable="false">History</string>
+    <string name="c" translatable="false">C</string>
+    <string name="divide" translatable="false">÷</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="multiply" translatable="false">×</string>
+    <string name="_9" translatable="false">9</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="dot" translatable="false">.</string>
+    <string name="comma" translatable="false">,</string>
+    <string name="equal" translatable="false">=</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="enter_number" translatable="false">Enter Number</string>
+
+    <string name="banner_ads1" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ads1" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_ads1" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="rewarded_ads1" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="hello_world">Hello World!</string>
+
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NavigationDrawerAndBottomNavigationExample"
+        tools:targetApi="31">
+        <activity
+            android:name=".Task_16_Overlay_Service.OverlayMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Task_15_Motion_Layout.MotionLayoutMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_9_Rest_API.RestAPIMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_9_Rest_API.RestAPIMainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".Task_5_Programatically_UI.ProgramaticallyMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_6_Canvas_Clock.CanvasClockMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_7_Expanse_Manager_App.Signup_Login.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Task_7_Expanse_Manager_App.Signup_Login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Task_7_Expanse_Manager_App.UpdateEntry"
+            android:exported="true" />
+        <activity
+            android:name=".Task_7_Expanse_Manager_App.HistoryScreen"
+            android:exported="true" />
+        <activity
+            android:name=".Task_7_Expanse_Manager_App.HomeScreen"
+            android:exported="true" />
+        <activity
+            android:name=".Task_7_Expanse_Manager_App.ExpanseMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_4_Gallery_App.GalleryMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_15_Motion_Layout.Task_8_Whatsapp_Status_Saver.WhatsappMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_15_Motion_Layout.Task_8_Whatsapp_Status_Saver.PreviewActivity"
+            android:exported="true" />
+        <activity android:name=".Task_17_NDK_SO_File.NDKMainActivity"
+            android:exported="true"/>
+        <activity android:name=".Task_18_AAR_File.AARMainActivity"
+            android:exported="true"/>
+        <activity android:name=".Task_19_Filters.FilterMainActivity"
+            android:exported="true"/>
+        <activity android:name=".Task_20_Internal_Storage.ReadWriteFiles"
+            android:exported="true"/>
+        <activity android:name=".Task_21_Notes_App.CreateNotes"
+            android:exported="true"/>
+        <activity android:name=".Task_21_Notes_App.NotesMainActivity"
+            android:exported="true"/>
+        <activity android:name=".Task_21_Notes_App.SubCategory"
+            android:exported="true"/>
+        <activity android:name=".Task_21_Notes_App.Room_Database_Notes.NotesUpdateEntry"
+            android:exported="true"/>
+
+        <activity
+            android:name=".Task_10_Animation.AnimationMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_12_Scientific_Calculator.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Task_12_Scientific_Calculator.ScientificMainActivity"
+            android:exported="true"
+            android:screenOrientation="fullSensor" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".Task_13_Admob_Samples.Native_Ads.NativeAdsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_13_Admob_Samples.Intrestitial_Ads.AfterInterstitailAdsFinishedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_13_Admob_Samples.Ads.MainBannerAdds"
+            android:exported="true" />
+        <activity
+            android:name=".Task_14_Localization.LocalizationMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Fragment_Example.MainActivityFragment"
+            android:exported="true" />
+        <activity
+            android:name=".Background_Service.MainActivityBackground"
+            android:exported="true" />
+        <activity
+            android:name=".Foreground_Service.CallBackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Foreground_Service.ForegroundMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Broadcast_Receiver.BroadcastMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Room_Database.RoomMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Android_Lifecycle.AndroidMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Android_Lifecycle.SecondActivityAndroid"
+            android:exported="true" />
+        <activity
+            android:name=".Implicit_Explicit_Intents.ImplicitExplicitMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Default_Widgets.DefaultWidgetsMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Custom_Widgets.CustomWidgetsMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Shared_Preferences.SharePreferencesMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Shared_Preferences.SharePreferencesProfile_Settings"
+            android:exported="true" />
+        <activity
+            android:name=".Jetpack_Navigation_Component.NavigationCompnents_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_2_Tablayout.Tablayout_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_1_Calculator_App.Calculator_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Task_3_Battery_Notification.BatteryStatusMainActivity"
+            android:exported="true" />
+
+        <service android:name=".Task_3_Battery_Notification.BatteryStatusService" />
+        <service android:name=".BackgroundService" />
+        <service
+            android:name=".Foreground_Service.NewService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".Task_16_Overlay_Service.OverlayService"
+            android:exported="false" />
+    </application>
+
+</manifest>
